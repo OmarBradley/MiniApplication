@@ -15,15 +15,12 @@ import com.example.tacademy.miniapplication.R;
 public class TStoreSearchFragment extends Fragment {
 
 
-    public TStoreSearchFragment() {
-        // Required empty public constructor
-    }
+    public TStoreSearchFragment() {}
 
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        // Inflate the layout for this fragment
         return inflater.inflate(R.layout.fragment_tstore_search, container, false);
     }
 

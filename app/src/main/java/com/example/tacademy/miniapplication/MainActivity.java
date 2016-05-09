@@ -1,9 +1,6 @@
 package com.example.tacademy.miniapplication;
 
 import android.os.Bundle;
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
-import android.view.View;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
@@ -13,6 +10,7 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 
+import com.annimon.stream.Optional;
 import com.example.tacademy.miniapplication.chatting.ChattingFragment;
 import com.example.tacademy.miniapplication.facebook.FacebookFragment;
 import com.example.tacademy.miniapplication.tstore.TStoreFragment;
@@ -42,11 +40,6 @@ public class MainActivity extends AppCompatActivity
             getSupportFragmentManager().beginTransaction().add(R.id.container, new TStoreFragment()).commit();
         }
     }
-
-
-
-
-
 
     @Override
     public void onBackPressed() {
